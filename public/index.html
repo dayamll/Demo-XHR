@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Project-Demo</title>
+  <title>Project Demo</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-  
+
+  <header class="box">
+    <h1 class="center title">¿Que te interesa hoy?</h1>
+    <div class="site-container">
+      <form id="search-form">
+        <div class="center">
+          <input type="text" id="search-keyword" class="input-search" name="search-keyword" placeholder="e.g. Adroid" required>
+        </div>
+        <div class="center">
+          <input class="btn-style" id="submit-btn" type="submit" value="SUBMIT">
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <div class="site-container">
+    <ul id="response-container"></ul>
+  </div>
+
   <script src="js/app.js"></script>
 </body>
+
 </html>
