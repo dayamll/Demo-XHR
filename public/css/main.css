@@ -1,0 +1,49 @@
+body {
+  background-image: url('../assets/images/love.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  text-align: center;
+}
+
+.box {
+  background-color: rgba(221, 38, 221, 0.493);
+  padding: 20px;
+  margin: 165px 200px 0 200px;
+  border: 15px solid rgba(0, 0, 0, 0.493);
+}
+
+.input-search {
+  border-radius: 5px;
+  padding: 10px;
+  width: 400px;
+  border: 1px solid white;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.btn-style {
+  margin: 25px;
+  padding: 15px;
+  border-radius: 3px;
+  background-color: rgb(5, 155, 62);
+  border: 1px solid rgb(5, 155, 62);
+  color: white;
+}
+
+.articleClass {
+  text-align: center;
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.411);
+  padding: 25px;
+  margin: 0 130px 10px 100px;
+  font-weight: 600;
+}
