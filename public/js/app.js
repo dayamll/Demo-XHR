@@ -24,15 +24,21 @@ function handleError() {
 
 function addNews() {
   const data = JSON.parse(this.responseText);
-  const article = data.response.docs[0];
-  const title = article.headline.main;
-  const snippet = article.snippet;
-  // const response = data.response;
+  // const article = data.response.docs[0];
+  // const title = article.headline.main;
+  // const snippet = article.snippet;
+  const response = data.response;
   // console.log(response);
 
-  let li = document.createElement('li');
-  li.className = 'articleClass';
-  li.innerText = snippet;
+  for (let i = 0; i < 5; i++) {
+    const article = data.response.docs[i];
+    const title = article.headline.main;
+    const snippet = article.snippet;
 
-  responseContainer.appendChild(li);
+    let li = document.createElement('li');
+    li.className = 'articleClass';
+    responseContainer.appendChild(li);
+    li.innerText = snippet;
+    responseContainer.appendChild(li);
+  }
 }
