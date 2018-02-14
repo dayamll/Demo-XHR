@@ -10,10 +10,11 @@ body {
   text-align: center;
 }
 
+
 .box {
   background-color: rgba(221, 38, 221, 0.493);
   padding: 20px;
-  margin: 165px 200px 0 200px;
+  margin: 50px 200px 0 200px;
   border: 15px solid rgba(0, 0, 0, 0.493);
 }
 
@@ -22,6 +23,11 @@ body {
   padding: 10px;
   width: 400px;
   border: 1px solid white;
+}
+
+.size {
+  width: 600px;
+  margin-top: 50px;
 }
 
 .title {
@@ -34,8 +40,8 @@ body {
   margin: 25px;
   padding: 15px;
   border-radius: 3px;
-  background-color: rgb(5, 155, 62);
-  border: 1px solid rgb(5, 155, 62);
+  background-color: rgb(94, 21, 128);
+  border: 1px solid rgb(24, 11, 31);
   color: white;
 }
 
